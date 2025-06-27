@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-3xl font-aura font-semibold text-white mb-4">Introduction</h2>
               <p className="leading-relaxed mb-4">
-                Welcome to Among the Space ("we," "our," or "us"). We are committed to protecting your privacy and 
+                Welcome to Among the Space (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and 
                 handling your personal information responsibly. This Privacy Policy explains how we collect, use, 
                 and safeguard your information when you visit our website and use our services.
               </p>
@@ -110,7 +110,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-3xl font-aura font-semibold text-white mb-4">Children's Privacy</h2>
+              <h2 className="text-3xl font-aura font-semibold text-white mb-4">Children&apos;s Privacy</h2>
               <p className="leading-relaxed">
                 Our service is not directed to children under 13, and we do not knowingly collect personal 
                 information from children under 13. If we become aware that we have collected personal 
@@ -122,7 +122,7 @@ export default function PrivacyPage() {
               <h2 className="text-3xl font-aura font-semibold text-white mb-4">Changes to This Policy</h2>
               <p className="leading-relaxed">
                 We may update this Privacy Policy from time to time. We will notify you of any changes by 
-                posting the new Privacy Policy on this page and updating the "Last updated" date.
+                posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
               </p>
             </section>
 

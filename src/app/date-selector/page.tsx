@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
-import { motion, useMotionValue, useTransform, PanInfo } from 'framer-motion';
+import React, { useState, useEffect, useCallback } from 'react';
+import { motion, useMotionValue, PanInfo } from 'framer-motion';
 import { fetchSpaceEvents, SpaceEvent, formatEventDate } from '@/lib/wikipedia';
 import { usePassport } from '@/contexts/PassportContext';
 
@@ -44,7 +44,7 @@ export default function DateSelectorPage() {
   // Create orbital trail effect
   const [trailPoints, setTrailPoints] = useState<Array<{x: number, y: number, opacity: number}>>([]);
 
-  const loadEventsForDate = async (date: Date) => {
+  const loadEventsForDate = useCallback(async (date: Date) => {
     setLoading(true);
     try {
       const month = date.getMonth() + 1;
@@ -62,11 +62,11 @@ export default function DateSelectorPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [passport, recordDateExploration]);
 
   useEffect(() => {
     loadEventsForDate(selectedDate);
-  }, [selectedDate]);
+  }, [selectedDate, loadEventsForDate]);
 
   // Set initial Earth position based on current date
   useEffect(() => {

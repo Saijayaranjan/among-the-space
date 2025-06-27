@@ -22,7 +22,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-3xl font-aura font-semibold text-white mb-4">Introduction</h2>
               <p className="leading-relaxed mb-4">
-                Welcome to Among the Space. These Terms of Service ("Terms") govern your use of our website 
+                Welcome to Among the Space. These Terms of Service (&quot;Terms&quot;) govern your use of our website 
                 and services. By accessing or using our service, you agree to be bound by these Terms.
               </p>
             </section>

@@ -228,7 +228,7 @@ export default function Home() {
               International Space Station
             </h2>
             <p className="text-xl text-white/70">
-              Humanity's home in space, orbiting Earth right now
+              Humanity&apos;s home in space, orbiting Earth right now
             </p>
           </motion.div>
 
