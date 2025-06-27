@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="spaceGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="planetGradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Space background -->
+  <circle cx="50" cy="50" r="50" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="20" cy="25" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="75" cy="20" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="85" cy="65" r="1" fill="#ffffff" opacity="0.9"/>
+  <circle cx="15" cy="70" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="65" cy="80" r="1.5" fill="#ffffff" opacity="0.5"/>
+  
+  <!-- Planet Earth -->
+  <circle cx="50" cy="50" r="18" fill="url(#planetGradient)"/>
+  
+  <!-- Continents (simplified) -->
+  <path d="M 45 40 Q 55 38 60 45 Q 58 50 50 48 Q 45 45 45 40" fill="#22c55e" opacity="0.8"/>
+  <path d="M 38 55 Q 45 53 48 58 Q 45 62 40 60 Q 38 58 38 55" fill="#22c55e" opacity="0.8"/>
+  
+  <!-- ISS Satellite -->
+  <g transform="translate(75,35) rotate(45)">
+    <rect x="-3" y="-1" width="6" height="2" fill="#fbbf24" rx="1"/>
+    <rect x="-5" y="-0.5" width="2" height="1" fill="#3b82f6"/>
+    <rect x="3" y="-0.5" width="2" height="1" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Orbital path -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#06b6d4" stroke-width="0.5" opacity="0.4" stroke-dasharray="2,2"/>
+</svg>

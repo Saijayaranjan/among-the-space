@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <radialGradient id="spaceGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="planetGradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Rounded rectangle background for iOS -->
+  <rect x="0" y="0" width="180" height="180" rx="40" ry="40" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="36" cy="45" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="135" cy="36" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="153" cy="117" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="27" cy="126" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="117" cy="144" r="3" fill="#ffffff" opacity="0.5"/>
+  <circle cx="45" cy="150" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="160" cy="70" r="1.5" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Planet Earth -->
+  <circle cx="90" cy="90" r="32" fill="url(#planetGradient)"/>
+  
+  <!-- Continents (simplified) -->
+  <path d="M 81 72 Q 99 68 108 81 Q 104.4 90 90 86.4 Q 81 81 81 72" fill="#22c55e" opacity="0.8"/>
+  <path d="M 68.4 99 Q 81 95.4 86.4 104.4 Q 81 111.6 72 108 Q 68.4 104.4 68.4 99" fill="#22c55e" opacity="0.8"/>
+  
+  <!-- ISS Satellite -->
+  <g transform="translate(135,63) rotate(45)">
+    <rect x="-5.4" y="-1.8" width="10.8" height="3.6" fill="#fbbf24" rx="1.8"/>
+    <rect x="-9" y="-0.9" width="3.6" height="1.8" fill="#3b82f6"/>
+    <rect x="5.4" y="-0.9" width="3.6" height="1.8" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Orbital path -->
+  <circle cx="90" cy="90" r="45" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+</svg>
