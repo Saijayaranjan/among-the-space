@@ -1,4 +1,4 @@
-# Among the Space 🚀
+# Among the Space
 
 An interactive space history website that lets you explore cosmic events through time. Discover what happened in space on any date, create your cosmic passport, and journey through the universe.
 
@@ -6,27 +6,27 @@ An interactive space history website that lets you explore cosmic events through
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## ✨ Features
+## Features
 
-### 🎨 Global Theme System
+### Global Theme System
 - **4 stunning themes** that apply instantly across the entire website
 - Deep Space (default), Cosmic Blue, Stellar Blue, and Solar Gold
 - Smooth theme transitions with gradient backgrounds
 
-### 🌌 Interactive Pages
+### Interactive Pages
 1. **Home Page** - Hero section with space animations and today's space events
 2. **Space Passport** - Create your cosmic identity with gamified achievements
 3. **Orbital Date Selector** - Interactive solar system to explore any date
 4. **Explore Universe** - Three realms: Distant Galaxies, Star Systems, and Solar Planets
 
-### 🛠️ Technical Features
+### Technical Features
 - **Wikipedia API Integration** - Real space events from history
 - **Framer Motion Animations** - Smooth, professional animations
 - **Responsive Design** - Perfect on all screen sizes
 - **TypeScript** - Type-safe development
 - **Modern UI/UX** - Clean, minimal, professional appearance
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -53,7 +53,7 @@ An interactive space history website that lets you explore cosmic events through
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🎯 How to Use
+## How to Use
 
 ### Creating Your Space Passport
 1. Click "Create Your Space Passport" on the home page
@@ -74,7 +74,7 @@ An interactive space history website that lets you explore cosmic events through
 2. Click any item for detailed information and facts
 3. Earn achievements as you explore
 
-## 🛰️ API Integration
+## API Integration
 
 The app uses the Wikipedia API to fetch real space events:
 
@@ -90,7 +90,7 @@ const events = await fetchSpaceEvents(month, day);
 - Image integration when available
 - Direct links to Wikipedia articles
 
-## 🎨 Theme System
+## Theme System
 
 Four carefully crafted themes with CSS gradients:
 
@@ -108,14 +108,14 @@ background: linear-gradient(to right, #0f172a, #1e3a5f, #2d5a87);
 background: linear-gradient(to right, #ffd700, #ff8c00, #ff6347);
 ```
 
-## 📱 Responsive Design
+## Responsive Design
 
 - **Mobile-first approach** with perfect alignment
 - **Hamburger menu** for mobile navigation  
 - **Touch-friendly** orbital date selector
 - **Adaptive layouts** for all screen sizes
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -134,7 +134,7 @@ src/
     └── wikipedia.ts     # API integration
 ```
 
-## 🎭 Animations
+## Animations
 
 Smooth animations powered by Framer Motion:
 - **Page transitions** with staggered loading
@@ -143,7 +143,7 @@ Smooth animations powered by Framer Motion:
 - **Theme transitions** for seamless switching
 - **Loading animations** for API calls
 
-## 🌟 Best Practices
+## Best Practices
 
 - **TypeScript** for type safety
 - **Component-based architecture**
@@ -152,7 +152,7 @@ Smooth animations powered by Framer Motion:
 - **Accessibility** considerations
 - **Performance optimization**
 
-## 🚀 Deployment
+## Deployment
 
 ### Build for production
 ```bash
@@ -165,15 +165,15 @@ npm start
 vercel deploy
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is a showcase project demonstrating modern web development practices. Feel free to explore the code and use it as inspiration for your own projects.
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 🌌 About
+## About
 
 "Among the Space" showcases modern React/Next.js development with:
 - Advanced TypeScript patterns
@@ -183,4 +183,4 @@ This project is open source and available under the MIT License.
 - Responsive design
 - Professional UI/UX
 
-Perfect for developers learning modern web technologies or anyone fascinated by space exploration! 🚀✨
+Perfect for developers learning modern web technologies or anyone fascinated by space exploration!
